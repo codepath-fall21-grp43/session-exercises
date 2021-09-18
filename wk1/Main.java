@@ -1,3 +1,5 @@
+package wk1;
+
 class Main {
 
     
