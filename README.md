@@ -5,9 +5,9 @@ This repository contains code for the weekly session exercises for Group 43, Fal
 Group 43: Rebecca Kehl (Buddy: Monika)
 - Andrew Killian (github: gtrman97)
 - Borislav Sabotinov (github: bss8)
-- Brett Owen (github: )
-- Erick Guerra (github: )
-- Galo Conde (github: )
+- Brett Owen (github: TheBrettOwen)
+- Erick Guerra (github: EGUERRA13)
+- Galo Conde (github: elgalogalo)
 - Sangeetha Eswaran (github: )
 
 ## To use

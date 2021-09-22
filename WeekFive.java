@@ -1,6 +1,5 @@
-package wk2;
 
-public class Main {
+public class WeekFive {
     public static void main (String...args) {
 
     }
