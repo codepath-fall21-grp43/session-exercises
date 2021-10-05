@@ -10,6 +10,15 @@ public class WeekTwo {
         System.out.println(value + " occurs " + k + " times.");
         int[] array2 = {1, 9, 3, 10, 4, 20 , 2};
         System.out.println(longestSequence(array2));
+
+        
+        //int[] array3 = null;//array null
+        int array3[]={3,2,6,9,5};
+        //int array3[]={4,5,6,1};
+        //int  array3[]=new int[0]; //empty set
+        int sum = 9;
+        System.out.println(arraySum(array3, sum));
+
         System.out.println();
     }
 
@@ -81,4 +90,43 @@ public class WeekTwo {
 
         return maxSequence;
     }
-}
+
+    // function signature here
+    //   Edge case:
+    //   Input 0
+    //   sum doesn't exist
+    //   empty array
+    //   no duplicates 
+    //
+    //   plan:
+    //   Brute force:o(n^2)
+    //   Hashset:O(N)
+    //
+    //   Create a hashset
+    //   iterate through the array and check the element in set adds upto the sum
+    //
+    //   if it is in the set return element in set and element in the array
+    //   else return null
+    //
+    //   Implement:
+    static String arraySum(int[] array,int k){
+        HashSet<Integer> set=new HashSet<>();
+        String S = "Null";
+        if (array == null)
+        return S;
+
+        if (array.length == 0)
+        return S;
+
+        for(int i = 0; i < array.length; i++){
+            int rem = k - array[i];
+            if (set.contains(rem)) {
+                S= rem + " " + array[i];
+            }
+            else{
+                set.add(array[i]);
+            }
+        } //for loop
+        return S;  
+    } //method arraySum
+} //class
