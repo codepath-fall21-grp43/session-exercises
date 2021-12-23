@@ -1,6 +1,14 @@
-
+/*
 public class WeekFour {
-    public static void main (String...args) {
 
+    public static class Node() {
+        Node next; 
+        int data;
+        
+    }
+
+    public static void main(String... args) {
+      
     }
 }
+*/
